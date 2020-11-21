@@ -6,7 +6,14 @@ elements which can have one or more dimensions.  A 1D array is called a vector a
 are called ndarrays, or N-dimensional arrays.  Numpy offers many tools to help manipulate the arrays.
 
 The random module of numpy produces uniformly distributed numbers. These will be used to generate the probability of a certain outcome.  
-There are two types of uniform distributions:discrete and continuous.  An example of a discrete distribution is rolling a die, it can only return positive whole numbers as it is not possible
-to roll a 3.4. 
-In continuous distributions every data point has an equal chance of appearing.  For example every element between 0.1 and 0.4 is as likely to be returned as every other.  The normal distribution
-is an example of a continuous distribution, this distribution measures how likely each element is to deviate from the mean.
+
+The first section of my notebook provides a brief outline of the necessity and uses of the Numpy.random program.
+
+In the second section I have explained the uses of the random data function and the permutation function. I have included some examples
+of how these functions are used and plotted the results.
+
+In the third section the distributions I have delved into are; the Normal Distribution, the Geometric Distribution, the Uniform Distribution and 
+the Binomial Distribution.
+
+In the fourth section I have explained the purpose of the seed is generating datasets which can be repeated.  This is useful for training and 
+testing datasets.
